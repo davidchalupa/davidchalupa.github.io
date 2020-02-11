@@ -1,60 +1,94 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		<title>David Chalupa - Personal Website</title>
+		<title>David Chalupa: Personal Website</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta http-equiv="Content-Script-Type" content="text/javascript" />
 		<meta name="keywords" content="David Chalupa, publications" />
-		<style>a {text-decoration: None; font-weight: bold; color: #555555;} a:hover {color: #777777;} body {margin: 0;}</style>
+		<meta name="viewport" content="width=550, initial-scale=1">
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+		<style>
+			a {text-decoration: None; font-weight: normal; color: #555555;} a:hover {color: #777777;} body {margin: 0;} .box:hover {background-color: #FBFBFB;}
+		</style>
+		<script type="text/javascript">
+			var siteWidth = 550;
+			var scale = screen.width /siteWidth
+			document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
+		</script>
 	</head>
-	<body style="font-family: Trebuchet MS, Helvetica, sans-serif; font-size: 11pt; color: #555555;">
-		<div style="margin-left: 10px; font-size: 14px;">
-				<h3><span style="font-weight: bold">GraphCombEx: Graph Combinatorial Explorer</span></h3>
-				
-				GraphCombEx stands for Graph Combinatorial Explorer: a software for exploration of combinatorial optimization properties of both real-world and synthetic complex networks.
+	<body style="font-family: Montserrat, sans-serif; font-size: 11pt; color: #555555;">
+		<div style="display: table; margin-left: 30px; margin-top: 30px; font-size: 18px;">
+			GraphCombEx<br />
+			<span style="font-size: 12px;">Graph Combinatorial Explorer</span>
+		</div>
+		
+		<div style="display: table; margin-left: 30px; margin-top: 30px; font-size: 12px;">
+			A software tool for exploration of combinatorial optimization properties of both real-world and synthetic complex networks.
+		</div>
+		
+		<div style="display: table; margin-left: 30px; margin-top: 30px; height: 40px; font-size: 14px; color: #777777;">
+			<a href="https://github.com/davidchalupa/GraphCombEx"><img src="../../iconfinder_icon-social-github_211904.png" style="vertical-align: middle; width: 20px; height: 20px; margin-right: 5px; margin-bottom: 5px;" /> Source code of GraphCombEx on Github</a>
+		</div>
 
-				<h4><span style="font-weight: bold">Introductory Paper</span></h4>
-
-				<a href="https://arxiv.org/abs/1801.09229" target="_blank"><img src="../../icon_text.png" style="vertical-align: middle; "/> arXiv</a><br />
-				<i>Chalupa, D., Hawick, K. A.</i>
-				GraphCombEx: A Software Tool for Exploration of Combinatorial Optimisation Properties of Large Graphs. ArXiv e-prints, arXiv:1801.09229.
-
-				<br /><br />
-
-				<h4><span style="font-weight: bold">Source Code Repository</span></h4>
-
-				<a href="https://github.com/davidchalupa/GraphCombEx" target="_blank">https://github.com/davidchalupa/GraphCombEx</a><br />
-
-				<h4><span style="font-weight: bold">Principles</span></h4>
-
-				<ul>
-					<li>light-weight, memory efficient;</li>
-					<li>cross-platform (Windows, Unix, Mac);</li>
-					<li>developed and released as a Qt project;</li>
-					<li>supports a variety of combinatorial properties and metrics.</li>
-				</ul>
-
-				<h4><span style="font-weight: bold">Features</span></h4>
-
-				<ul>
-					<li>support for handling undirected graphs with millions of edges;</li>
-					<li>tested on various networks: social networks, biological data, scheduling networks and many more;</li>
-					<li>metrics supported include: the number of triangles, connected components, diameter of the main component;</li>
-					<li>combinatorial properties supported include: intervals for maximum clique, independent set, dominating set, longest cycle;</li>
-					<li>network visualisations: centrality-based, grid-based, tree-based, circular.</li>
-				</ul>
-
-				<h4><span style="font-weight: bold">Screenshots</span></h4>
-
-				<img src="GraphCombEx1.png" />
-				<img src="GraphCombEx2.png" />
-				<img src="GraphCombEx3.png" />
-
-				<br /><br />
-
-				Disclaimer: GraphCombEx is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-
-				<div style="height: 20px;"></div>
+		<a href="https://doi.org/10.1016/j.knosys.2017.03.022" target="_blank">
+		<div style="display: table; margin-left: 30px; margin-top: 20px; font-size: 14px;">
+			<div style="width: 55px; float:left;">
+				<img src="../../iconfinder_document_text_103509.png" style="width: 50px; height: 50px; border-collapse: separate;" />
 			</div>
+			<div style="display: table-cell; vertical-align: middle;">
+				<span style="font-size: 12px;">
+				GraphCombEx: A Software Tool for Exploration of Combinatorial Optimisation Properties of Large Graphs<br />
+				<i>Chalupa, D., Hawick, K. A.</i><br />
+				Soft Computing, 23(14), 5715–5724, 2019
+				</span>
+			</div>
+		</div>
+		</a>
+
+		<div style="display: table; margin-left: 30px; margin-top: 30px; font-size: 18px;">
+			Screenshots
+		</div>
+
+		<div style="display: table; margin-left: 30px; margin-top: 30px; font-size: 12px;">
+			<img src="GraphCombEx1.png" />
+			<img src="GraphCombEx2.png" />
+			<img src="GraphCombEx3.png" />
+		</div>
+
+		<div style="display: table; margin-left: 30px; margin-top: 30px; font-size: 18px;">
+			Principles
+		</div>
+
+		<div style="display: table; margin-left: 30px; margin-top: 10px; font-size: 12px;">
+			<ul>
+				<li>light-weight, memory efficient;</li>
+				<li>cross-platform (Windows, Unix, Mac);</li>
+				<li>developed and released as a Qt project;</li>
+				<li>supports a variety of combinatorial properties and metrics.</li>
+			</ul>
+		</div>
+
+		<div style="display: table; margin-left: 30px; margin-top: 30px; font-size: 18px;">
+			Features
+		</div>
+
+		<div style="display: table; margin-left: 30px; margin-top: 10px; font-size: 12px;">
+			<ul>
+				<li>support for handling undirected graphs with millions of edges;</li>
+				<li>tested on various networks: social networks, biological data, scheduling networks and many more;</li>
+				<li>metrics supported include: the number of triangles, connected components, diameter of the main component;</li>
+				<li>combinatorial properties supported include: intervals for maximum clique, independent set, dominating set, longest cycle;</li>
+				<li>network visualisations: centrality-based, grid-based, tree-based, circular.</li>
+			</ul>
+		</div>
+
+		<div style="display: table; margin-left: 30px; margin-top: 30px; font-size: 10px;">
+			Disclaimer: GraphCombEx is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+		</div>
+		
+		<div style="display: table; margin-left: 30px; margin-top: 30px; height: 40px; font-size: 10px; color: #777777;">
+			David Chalupa, 2020 | Free icons by <a href="https://www.iconfinder.com/">www.iconfinder.com</a>
+		</div>
+
 	</body>
 </html>
