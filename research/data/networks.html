@@ -1,61 +1,114 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		<title>David Chalupa - Personal Website</title>
+		<title>David Chalupa: Personal Website</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta http-equiv="Content-Script-Type" content="text/javascript" />
 		<meta name="keywords" content="David Chalupa, publications" />
-		<style>a {text-decoration: None; font-weight: bold; color: #555555;} a:hover {color: #777777;} body {margin: 0;}</style>
+		<meta name="viewport" content="width=550, initial-scale=1">		
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+		<style>
+			a {text-decoration: None; font-weight: normal; color: #555555; outline: None;} a:hover {color: #777777;} body {margin: 0;} .box:hover {background-color: #FBFBFB;}
+		</style>
+		<script type="text/javascript">
+			var siteWidth = 550;
+			var scale = screen.width /siteWidth
+			document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
+		</script>
 	</head>
-	<body style="font-family: Trebuchet MS, Helvetica, sans-serif; font-size: 11pt; color: #555555;">
-		<div style="margin-left: 10px; font-size: 14px;">
-				<h2><span style="font-weight: bold">Network Data</span></h2>
-				
+	<body style="font-family: Montserrat, sans-serif; font-size: 11pt; color: #555555;">
+		<div style="display: table; margin-left: 30px; margin-top: 30px; font-size: 14px;">
+			<div style="width: 120px; float:left;">
+				<img src="../../foto_small.jpg" style="width: 100px; height: 100px; border-radius: 50%; border-collapse: separate;" />
+			</div>
+			<div style="display: table-cell; vertical-align: middle;">
+				<span style="font-size: 18px;">David Chalupa</span><br />
+				<span style="font-size: 12px;">A freelance computer scientist | specialized software engineer</span>
+			</div>
+		</div>
+		<div style="display: table; margin-left: 30px; margin-top: 30px; font-size: 18px;">
+			Network Data
+		</div>
+		
+		<div style="display: table; margin-left: 30px; margin-top: 30px; font-size: 12px;">
 				This is a summary page for the complex network data sets used in several papers listed at the bottom of this page.
-                                Please refer to the corresponding category below.
-                                                                                
-				<h3><span style="font-weight: bold">Social Network Data</span></h3>
+                Please refer to the corresponding category below.
+		</div>
+		
+		<div style="display: table; margin-left: 30px; margin-top: 30px; font-size: 16px;">
+			Social Network Data
+		</div>
+		
+		<div style="display: table; margin-left: 30px; margin-top: 30px; font-size: 12px;">
+			<a href="social.html">Social Network Samples</a>
+		</div>
+		
+		<div style="display: table; margin-left: 30px; margin-top: 30px; font-size: 16px;">
+			Links to Other Network Data Repositories
+		</div>
 
-				<a href="social.html">Social Network Samples</a><br />
-
-				<h3><span style="font-weight: bold">Links to Other Network Data Repositories</span></h3>
-
+		<div style="display: table; margin-left: 30px; margin-top: 30px; font-size: 12px;">
 				The following are the links to other network data sources.<br /><br />
 
-				<a href="http://www-personal.umich.edu/~mejn/netdata" target="_blank">Network Science Data Repository</a>
-				<span style="font-size: 9pt">(please refer to the original sources given at the page linked)</span><br />
-				<a href="http://dip.mbi.ucla.edu/dip/" target="_blank">UCLA Database of Interacting Proteins</a>
-				<span style="font-size: 9pt">(please refer to the original sources given at the page linked)</span><br />
-				<a href="http://mat.gsia.cmu.edu/COLOR/instances.html" target="_blank">DIMACS Graph Coloring Instances</a>
-				<span style="font-size: 9pt">(please refer to the original sources given at the page linked)</span>
+				<a href="http://www-personal.umich.edu/~mejn/netdata" target="_blank">Network Science Data Repository</a><br />
+				<a href="http://dip.mbi.ucla.edu/dip/" target="_blank">UCLA Database of Interacting Proteins</a><br />
+				<a href="http://mat.gsia.cmu.edu/COLOR/instances.html" target="_blank">DIMACS Graph Coloring Instances</a><br />
+				(please refer to the original sources given at the pages linked)
+		</div>
+		
+		<div style="display: table; margin-left: 30px; margin-top: 30px; font-size: 16px;">
+			References
+		</div>
 
-				<br /><br />
+				<a href="https://doi.org/10.1016/j.ins.2017.10.033" target="_blank">
+				<div style="display: table; margin-left: 30px; margin-top: 30px; font-size: 14px;">
+					<div style="width: 55px; float:left;">
+						<img src="../../iconfinder_document_text_103509.png" style="width: 50px; height: 50px; border-collapse: separate;" />
+					</div>
+					<div style="display: table-cell; vertical-align: middle;">
+						<span style="font-size: 12px;">
+						An Order-based Algorithm for Minimum Dominating Set with Application in Graph Mining<br />
+						<i>Chalupa, D.</i><br />
+						Information Sciences, 426, 101-116, 2018	
+						</span>
+					</div>
+				</div>
+				</a>
 
-				<a href="https://doi.org/10.1016/j.ins.2017.10.033" target="_blank"><img src="../../icon_text.png" style="vertical-align: middle; "/> DOI</a>&nbsp;
-				<a href="https://www.researchgate.net/publication/311887173_An_Order-based_Algorithm_for_Minimum_Dominating_Set_with_Application_in_Graph_Mining" target="_blank"><img src="../../icon_text.png" style="vertical-align: middle; "/> ResearchGate</a>&nbsp;
-				<a href="infsci18.bib" target="_blank"><img src="../../icon_bib.png" style="vertical-align: middle; "/> BibTeX</a><br />
-				<i>Chalupa, D.:</i>
-				An Order-based Algorithm for Minimum Dominating Set with Application in Graph Mining.
-				<a href="https://www.journals.elsevier.com/information-sciences/" target="_blank"><b>Information Sciences</b></a>, 426, 101-116, 2018.<br />
-				<br />
+				<a href="https://doi.org/10.1016/j.jocs.2017.07.012" target="_blank">
+				<div style="display: table; margin-left: 30px; margin-top: 30px; font-size: 14px;">
+					<div style="width: 55px; float:left;">
+						<img src="../../iconfinder_document_text_103509.png" style="width: 50px; height: 50px; border-collapse: separate;" />
+					</div>
+					<div style="display: table-cell; vertical-align: middle;">
+						<span style="font-size: 12px;">
+						Mining k-Reachable Sets in Real-world Networks Using Domination in Shortcut Graphs<br />
+						<i>Chalupa, D., Blum, C.</i><br />
+						Journal of Computational Science, 22, 1-14, 2017	
+						</span>
+					</div>
+				</div>
+				</a>
 
-				<a href="https://doi.org/10.1016/j.jocs.2017.07.012" target="_blank"><img src="../../icon_text.png" style="vertical-align: middle; "/> DOI</a>&nbsp;
-				<a href="https://www.researchgate.net/publication/318533094_Mining_k-Reachable_Sets_in_Real-world_Networks_Using_Domination_in_Shortcut_Graphs" target="_blank"><img src="../../icon_text.png" style="vertical-align: middle; "/> ResearchGate</a>&nbsp;
-				<a href="jocs17.bib" target="_blank"><img src="../../icon_bib.png" style="vertical-align: middle; "/> BibTeX</a><br />
-				<i>Chalupa, D., Blum, C.:</i>
-				Mining k-Reachable Sets in Real-world Networks Using Domination in Shortcut Graphs.
-				<a href="https://www.journals.elsevier.com/journal-of-computational-science/" target="_blank"><b>Journal of Computational Science</b></a>, 22, 1-14, 2017.<br />
-				<br />
+				<a href="https://doi.org/10.1016/j.knosys.2017.03.022" target="_blank">
+				<div style="display: table; margin-left: 30px; margin-top: 30px; font-size: 14px;">
+					<div style="width: 55px; float:left;">
+						<img src="../../iconfinder_document_text_103509.png" style="width: 50px; height: 50px; border-collapse: separate;" />
+					</div>
+					<div style="display: table-cell; vertical-align: middle;">
+						<span style="font-size: 12px;">
+						Computational Methods for Finding Long Simple Cycles in Complex Networks<br />
+						<i>Chalupa, D., Balaghan, P., Hawick, K. A., Gordon, N. A.</i><br />
+						Knowledge-Based Systems, 125, 91-105, 2017
+						</span>
+					</div>
+				</div>
+				</a>
 
-				<a href="https://doi.org/10.1016/j.knosys.2017.03.022" target="_blank"><img src="../../icon_text.png" style="vertical-align: middle; "/> DOI</a>&nbsp;
-				<a href="https://www.researchgate.net/publication/311887250_Computational_Methods_for_Finding_Long_Simple_Cycles_in_Complex_Networks" target="_blank"><img src="../../icon_text.png" style="vertical-align: middle; "/> ResearchGate</a>&nbsp;
-				<a href="knosys17.bib" target="_blank"><img src="../../icon_bib.png" style="vertical-align: middle; "/> BibTeX</a><br />
-				<i>Chalupa, D., Balaghan, P., Hawick, K. A., Gordon, N. A.:</i>
-				Computational Methods for Finding Long Simple Cycles in Complex Networks.
-				<a href="https://www.journals.elsevier.com/knowledge-based-systems/" target="_blank"><b>Knowledge-Based Systems</b></a>, 125, 91-105, 2017.<br />
-				<br />
+		<div style="display: table; margin-left: 30px; margin-top: 30px; height: 40px; font-size: 10px; color: #777777;">
+			David Chalupa, 2020 | Free icons by <a href="https://www.iconfinder.com/">www.iconfinder.com</a>
+		</div>
 
-				<div style="height: 20px;"></div>
-			</div>
 	</body>
 </html>
+
