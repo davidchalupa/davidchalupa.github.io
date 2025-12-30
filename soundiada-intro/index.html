@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>soundiada</title>
+  <style>
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial;color:#fff;background:#071030}
+    .root{min-height:100%;display:flex;align-items:center;justify-content:center;padding:24px;box-sizing:border-box}
+    .card{width:min(720px,96vw);background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));border-radius:12px;padding:28px;text-align:center;border:1px solid rgba(255,255,255,0.03);box-shadow:0 18px 50px rgba(0,0,0,0.6)}
+    h1{margin:0 0 14px;font-size:26px}
+    .instr{min-height:140px;background:rgba(255,255,255,0.02);border-radius:8px;padding:14px;margin-bottom:18px;color:#e6eefc;line-height:1.5}
+    .btn{display:inline-block;padding:12px 20px;border-radius:10px;background:#ffd166;color:#071030;font-weight:700;border:none;cursor:pointer;text-decoration:none;font-size:15px;box-shadow:0 8px 24px rgba(0,0,0,0.45)}
+    .meta{margin-top:10px;font-size:13px;color:rgba(255,255,255,0.6)}
+	.secondarylink, .secondarylink:link, .secondarylink:visited {
+	  color: #9dd3d3;
+	  text-decoration: none;     /* remove underline */
+	  border-bottom: 1px solid transparent; /* small anchor for hover animation */
+	  transition: color .15s ease, border-color .15s ease, opacity .12s ease;
+	  cursor: pointer;
+	}
+  </style>
+</head>
+<body>
+  <div class="root">
+    <main class="card" role="main" aria-labelledby="title">
+      <h1 id="title">soundiada</h1>
+
+      <div class="instr" role="region" aria-label="How to play (placeholder)">
+        <!-- Replace this text with short instructions for your players -->
+        <p style="margin:0; text-align: left;">
+		A simple game inspired by 2D embeddings of audio recordings.
+		</p>
+        <p style="margin:0; margin-top: 10px; text-align: left;">
+		<strong>Instructions:</strong> Just click on a point on the screen to play a sound that hides behind that point.
+		Drag-and-drop the correct label based on the sound you heard.
+		</p>
+        <p style="margin:0; margin-top: 10px; text-align: left;">		
+		<strong>Headphones recommended!</strong> 🙂
+		</p>
+        <p style="margin:0; margin-top: 10px; text-align: left;">		
+		Enjoy!
+		</p>
+      </div>
+
+      <a href="../soundiada" class="btn" id="start">Start game</a>
+
+      <div class="meta">Source code of soundiada: <a class="secondarylink" href="https://github.com/davidchalupa/soundiada">https://github.com/davidchalupa/soundiada</a>.</div>
+    </main>
+  </div>
+</body>
+</html>
